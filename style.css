@@ -33,7 +33,7 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-/* Header Navbar */
+
 .header {
     position: fixed;
     top: 0;
@@ -76,7 +76,7 @@ section {
     display: none;
 }
 
-/* Home Section */
+
 .home {
     position: relative;
     width: 100%;
@@ -152,7 +152,7 @@ span {
     box-shadow: none;
 }
 
-/* Glowing Image Styles */
+
 .home-img {
     width: 410px;
     height: 410px;
@@ -219,7 +219,7 @@ span {
     }
 }
 
-/* About Section */
+
 .about {
     display: flex;
     justify-content: center;
@@ -293,7 +293,7 @@ span {
     margin: 1rem 0 3rem;
 }
 
-/* Portfolio Section */
+
 .portfolio {
     background: var(--second-bg-color);
 }
@@ -373,7 +373,7 @@ span {
     color: var(--second-bg-color);
 }
 
-/* Skills Section */
+
 .skills-container {
     display: flex;
     justify-content: space-between;
@@ -397,8 +397,7 @@ span {
     padding-bottom: .5rem;
 }
 
-/* Technical Skills Bars */
-.skill-bar {
+
     margin-bottom: 2rem;
 }
 
@@ -460,7 +459,7 @@ span {
 @keyframes animatePython { 0% { width: 0%; } 100% { width: 50%; } }
 @keyframes animateReact { 0% { width: 0%; } 100% { width: 75%; } }
 
-/* Professional Circular Bars */
+
 .radial-bars {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -537,7 +536,7 @@ span {
     100% { opacity: 1; }
 }
 
-/* Contact Section */
+
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -578,7 +577,7 @@ span {
     cursor: pointer;
 }
 
-/* Footer Section */
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -611,7 +610,7 @@ span {
     color: var(--second-bg-color);
 }
 
-/* Responsive Media Queries */
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -725,18 +724,18 @@ span {
         height: 270px;
     }
 }
-/* About Section Image Design (Rounded Border) */
+
 .about-img {
     position: relative;
     width: 80rem;
     height: 40rem;
-    border: .25rem solid var(--main-color); /* নিয়ন ব্লু বর্ডার */
-    border-radius: 2rem; /* চারপাশের কোণা মোড়ানো */
+    border: .25rem solid var(--main-color); 
+    border-radius: 2rem;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 1.5rem var(--main-color); /* হালকা নীল আলো/গ্লো */
+    box-shadow: 0 0 1.5rem var(--main-color); 
 }
 
 .about-img img {
@@ -745,14 +744,14 @@ span {
     object-fit: cover;
     border-radius: 1.8rem;
 }
-/* Portfolio Hover Overlay & Text Fix */
+
 .portfolio-box .portfolio-layer {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    /* হালকা কালো ট্রান্সপারেন্ট ব্যাকগ্রাউন্ড যাতে সব ছবি ও লেখার কন্ট্রাস্ট ঠিক থাকে */
+   
     background: rgba(8, 27, 41, 0.85); 
     display: flex;
     justify-content: center;
@@ -768,7 +767,7 @@ span {
     opacity: 1;
 }
 
-/* Title setup: একদম উজ্জ্বল সাদা */
+
 .portfolio-box .portfolio-layer h4 {
     color: #ffffff; 
     font-size: 2.2rem;
@@ -777,14 +776,14 @@ span {
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-/* Tech Stack description setup: নিয়ন ব্লু/সায়ান */
+
 .portfolio-box .portfolio-layer p {
     color: #0ef; 
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.4;
 }
-/* Contact Left Side Styling */
+
 .contact-info {
     flex: 1;
 }
@@ -797,7 +796,7 @@ span {
 }
 
 .contact-info h2 span {
-    color: #0ef; /* আপনার থিমের নিয়ন কালার */
+    color: #0ef; 
 }
 
 .contact-info p {
@@ -822,7 +821,7 @@ span {
 .contact-item .icon-box {
     width: 4.8rem;
     height: 4.8rem;
-    background: #323946; /* ডার্ক আইকন বক্স ব্যাকগ্রাউন্ড */
+    background: #323946; 
     border-radius: .8rem;
     display: flex;
     justify-content: center;
@@ -846,7 +845,7 @@ span {
     color: #fff;
     margin-bottom: 0;
 }
-/* Layout Alignment Fix for Contact Section */
+
 .contact {
     min-height: auto;
     padding: 7rem 9% 7rem;
@@ -859,7 +858,7 @@ span {
     gap: 5rem;
 }
 
-/* Left Side Styling */
+
 .contact-info {
     flex: 1;
 }
@@ -922,7 +921,7 @@ span {
     margin-bottom: 0;
 }
 
-/* Right Side Form Box Styling */
+
 .contact-form {
     flex: 1;
 }
@@ -932,7 +931,7 @@ span {
     margin-bottom: 2rem;
 }
 
-/* Responsive view for Mobile Devices */
+
 @media (max-width: 991px) {
     .contact-container {
         flex-direction: column;
